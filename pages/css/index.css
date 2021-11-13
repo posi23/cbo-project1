@@ -1,0 +1,29 @@
+#images {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  background-image: linear-gradient(
+    to top left,
+    #000000,
+    #3b3b3b,
+    #777777,
+    #b9b9b9,
+    #ffffff
+  );
+  padding: 4vh;
+}
+
+#images img {
+  height: 500px;
+}
+
+#description {
+  margin: 2vh 2vw;
+  margin-bottom: 4vh;
+}
+
+#description p {
+  font-size: 1.4rem;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: rgb(62, 36, 36);
+}
