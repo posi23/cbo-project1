@@ -8,8 +8,10 @@ COPY package.json .
 
 RUN npm install
 
-COPY . .
+COPY . . 
 
-EXPOSE 3030
+ENV PORT 3050
+
+EXPOSE ${PORT}
 
 CMD ["npx", "nodemon", "server/app"]

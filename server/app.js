@@ -8,15 +8,10 @@ const webPagesRouter = require("./webpages");
 
 const app = express();
 
-const port = 3030;
+const port;
+port || process.env.PORT;
 
 app.use('/', bodyParser.urlencoded({ extended: true }));
-
-
-
-// app.get('/', (req, res) => {
-//       res.sendFile(path.join(__dirname, "../index.html"));
-// });
 
 app.use(webPagesRouter);
 
