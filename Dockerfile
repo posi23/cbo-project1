@@ -10,8 +10,8 @@ RUN npm install
 
 COPY . . 
 
-ENV PORT 3050
+# ENV PORT 3050
 
-EXPOSE ${PORT}
+# EXPOSE ${PORT}
 
-CMD ["npx", "nodemon", "server/app"]
+CMD ["node", "server/app"]
