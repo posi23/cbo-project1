@@ -8,10 +8,12 @@
       <link rel="shortcut icon" type="image/jpg" href="images/favicon.jpeg" />
       <link rel="stylesheet" type="text/css" href="css/styles.css" />
       <link rel="stylesheet" type="text/css" href="css/contact.css" />
+      <link rel="stylesheet" href="../../dist/css/bootstrap.min.css" type="text/css" />
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
       <title>CBO Food Bank Contact Us</title>
 </head>
 
-<body>
+<body class="bg-secondary">
       <header class="header">
             <a href="/" title="CBO Food Bank homepage">
                   CBO Food Bank
@@ -19,18 +21,25 @@
             <nav class="navbar">
                   <ul>
                         <li><a href="/">Home</a></li>
-                        <li><a href="about.html">About Us</a></li>
-                        <li><a href="contact.html" id="selected-bar">Contact Us</a></li>
-                        <li><a href="services.html">Services</a></li>
-                        <li><a href="staff.html">Staff Access</a></li>
+                        <li><a href="about">About Us</a></li>
+                        <li><a href="contact" id="selected-bar">Contact Us</a></li>
+                        <li><a href="services">Services</a></li>
+                        <li><a href="staff">Staff Access</a></li>
                   </ul>
             </nav>
       </header>
 
+      <div id="main-content" class="p-3">
+            <h3>Contact Us Via</h3>
+            <p class="bi bi-telephone-fill"> 123-456-789</p>
+            <p class="bi bi-envelope-fill"> info@posi.adeyemi@usask.ca</p>
+            <p class="bi bi-house-fill"> 1 College Drive</p>
+      </div>
 
-      <footer id="footer">
+
+      <footer id="footer" class="p-3">
             <div>
-                  <div id="enquiry-form">
+                  <div id="enquiry-form" class="mb-3">
                         <h4 style="font-size: 1.7vh;">Enquire about more information and how you can join us in
                               feeding
                               hundreds</h4>
@@ -43,10 +52,12 @@
 
                               <label for="enquiry">Message</label>
                               <textarea id="enquiry" class="form-field" cols="30" rows="10"></textarea>
+
+                              <button class="btn btn-primary mt-2" type="button">Submit</button>
                         </form>
                   </div>
 
-                  <div class="contact-links">
+                  <div class="contact-links mb-3">
 
                         <h4>Social Media Pages</h4>
                         <div>

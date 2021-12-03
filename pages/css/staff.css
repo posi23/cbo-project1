@@ -1,0 +1,81 @@
+#main-content {
+  margin-top: 2vh;
+}
+
+#main-content h4 {
+  padding: 0.5vw;
+  /* font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif; */
+  font-family: Poppins, "sans-serif";
+  font-size: 1.2rem;
+  user-select: none;
+  font-weight: bold;
+}
+
+#main-content div {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+#main-content > div {
+  color: rgb(162, 161, 161);
+  width: 30vw;
+  margin: 5vh auto;
+  padding: 2vw;
+  display: flex;
+  justify-content: center;
+  background-color: rgb(67, 67, 67);
+}
+
+#main-content label {
+  font-weight: 500;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#main-content input {
+  width: 15vw;
+  background-color: rgb(231, 225, 225);
+  color: rgb(45, 45, 45);
+}
+
+#main-content button {
+  font-size: 1rem;
+  font-family: Poppins, "sans-serif";
+  background-color: lightblue;
+  /* font-weight: bold; */
+  cursor: pointer;
+}
+
+@media screen and (max-width: 600px) {
+  #main-content > div {
+    width: 100vw;
+    margin: 5vh 0;
+  }
+  #main-content input {
+    width: 30vw;
+  }
+}
+
+@media screen and (min-width: 600px) and (max-width: 900px) {
+  #main-content > div {
+    width: 50vw;
+    margin: 5vh auto;
+  }
+  #main-content input {
+    width: 25vw;
+  }
+}
+
+@media screen and (min-width: 900px) and (max-width: 1200px) {
+  #main-content > div {
+    width: 40vw;
+    margin: 5vh auto;
+  }
+  #main-content input {
+    width: 15vw;
+  }
+}
+
+#signup-text > p {
+  margin-bottom: 0;
+}

@@ -8,10 +8,11 @@
       <link rel="shortcut icon" type="image/jpg" href="images/favicon.jpeg" />
       <link rel="stylesheet" type="text/css" href="css/styles.css" />
       <link rel="stylesheet" type="text/css" href="css/about.css" />
+      <link rel="stylesheet" href="../../dist/css/bootstrap.min.css" type="text/css" />
       <title>CBO Food Bank About Us</title>
 </head>
 
-<body>
+<body class="bg-secondary">
       <header class="header">
             <a href="/" title="CBO Food Bank homepage">
                   CBO Food Bank
@@ -19,17 +20,34 @@
             <nav class="navbar">
                   <ul>
                         <li><a href="/">Home</a></li>
-                        <li><a href="about.html" id="selected-bar">About Us</a></li>
-                        <li><a href="contact.html">Contact Us</a></li>
-                        <li><a href="services.html">Services</a></li>
-                        <li><a href="staff.html">Staff Access</a></li>
+                        <li><a href="about" id="selected-bar">About Us</a></li>
+                        <li><a href="contact">Contact Us</a></li>
+                        <li><a href="services">Services</a></li>
+                        <li><a href="staff">Staff Access</a></li>
                   </ul>
             </nav>
       </header>
 
-      <footer id="footer">
+      <div id="main-content" class="d-md-flex justify-content-center text-wrap p-5">
+            <div class="">
+                  <h3>Our Mission</h3>
+                  <p class="">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Magni vel accusantium
+                        voluptate
+                        laboriosam sit maxime tenetur quos ex est maiores quibusdam provident deserunt illum et,
+                        explicabo soluta similique ipsum ea recusandae perferendis. Dignissimos, delectus architecto?
+                  </p>
+            </div>
+
             <div>
-                  <div id="enquiry-form">
+                  <h3>Our Vision</h3>
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At minima dolore ad voluptate consequuntur
+                        pariatur odit error voluptas ipsam tempora!</p>
+            </div>
+      </div>
+
+      <footer id="footer" class="p-3">
+            <div>
+                  <div id="enquiry-form" class="mb-3">
                         <h4 style="font-size: 1.7vh;">Enquire about more information and how you can join us in
                               feeding
                               hundreds</h4>
@@ -42,10 +60,12 @@
 
                               <label for="enquiry">Message</label>
                               <textarea id="enquiry" class="form-field" cols="30" rows="10"></textarea>
+
+                              <button class="btn btn-primary mt-2" type="button">Submit</button>
                         </form>
                   </div>
 
-                  <div class="contact-links">
+                  <div class="contact-links mb-3">
 
                         <h4>Social Media Pages</h4>
                         <div>
