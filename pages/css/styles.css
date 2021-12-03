@@ -1,0 +1,155 @@
+body {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  background-color: rgba(0, 0, 0, 0.4);
+  position: relative;
+  z-index: 1;
+}
+
+.header {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  border-radius: 3vh;
+  padding: 1vw 1vh;
+  margin-bottom: 2vh;
+  background: rgb(180, 175, 175);
+}
+
+.header a {
+  color: rgb(89, 125, 127);
+  font-family: inherit;
+  font-weight: bold;
+  text-align: center;
+  text-decoration: none;
+  user-select: none;
+}
+
+.header a:hover {
+  color: green;
+}
+
+.header > a {
+  font-size: 2vh;
+  font-weight: bold;
+  margin-left: 2vw;
+  padding: 2vh 2vw;
+  border: darkblue 10px inset;
+  display: flex;
+  color: #444939;
+  background: linear-gradient(
+    to right bottom,
+    #2d3705,
+    #4b5f09,
+    #6a8b0b,
+    #89ba0d,
+    #a8eb12
+  );
+  justify-content: left;
+}
+
+.header > a:hover {
+  background: linear-gradient(
+    to top left,
+    #2d3705,
+    #4b5f09,
+    #6a8b0b,
+    #89ba0d,
+    #a8eb12
+  );
+}
+
+.navbar {
+  margin-right: 2vw;
+}
+
+.navbar ul {
+  list-style-type: none;
+}
+
+.navbar ul li {
+  display: inline-flex;
+  margin-left: 0.3vw;
+  font-size: 1.5vh;
+}
+
+.navbar ul li a {
+  padding: 0.5vh 0.5vw;
+}
+
+#selected-bar {
+  background-image: linear-gradient(
+    to left top,
+    #07201f,
+    #144041,
+    #226369,
+    #328896,
+    #45aec6
+  );
+  color: rgb(234, 230, 230);
+}
+
+#selected-bar:hover {
+  background-image: linear-gradient(
+    to bottom right,
+    #07201f,
+    #144041,
+    #226369,
+    #328896,
+    #45aec6
+  );
+}
+
+#footer {
+  margin-top: auto;
+  width: 100%;
+  background: rgb(21, 20, 20);
+  color: rgb(185, 181, 181);
+}
+
+#footer > div {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+#enquiry-form {
+  margin-left: 2vw;
+}
+
+#enquiry-form label {
+  font-family: monospace;
+  font-size: 2vh;
+  cursor: pointer;
+}
+
+.form-field {
+  display: block;
+  background: rgb(195, 194, 194);
+  color: rgb(231, 225, 225);
+}
+
+.contact-links a {
+  text-decoration: none;
+}
+
+.contact-links {
+  display: flex;
+  justify-content: right;
+  flex-direction: column;
+  margin-right: 2vw;
+}
+.contact-links img {
+  width: 50px;
+  height: 55px;
+  margin-left: 2vw;
+}
+
+#footer h4 {
+  display: flex;
+  justify-content: center;
+}

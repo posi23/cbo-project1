@@ -1,0 +1,100 @@
+POST http://localhost:3050/staff
+Content-Type: application/json
+
+{
+      "username": "100",
+      "pwd": "posiadeyemi"
+}
+
+###
+
+GET http://localhost:3050/staff/dashboard/1
+
+
+###
+
+GET http://localhost:3050/staff/updateInfo/102
+
+###
+
+
+POST http://localhost:3050/staff/register
+Content-Type: application/json
+
+{
+      "firstname": "Sally",
+      "lastname": "Johnson",
+      "email": "sallyj@gmail.com",
+      "address": "232 Halley Street",
+      "province": "Saskatchewan",
+      "city": "Saskatoon",
+      "postCode": "S7G 9Y4",
+      "dob": "2003-08-20"
+}
+
+
+###
+
+GET http://localhost:3050/staff/customer/all
+
+
+###
+
+POST http://localhost:3050/staff/report
+Content-Type: application/json
+
+{
+      "cust_id": "100",
+      "note": "This is a testing phase\n",
+      "name":"John Doe"
+}
+
+###
+
+DELETE http://localhost:3050/staff/deleteCust/7/Olaoluwaposi%20Andy
+
+
+###
+
+
+PUT http://localhost:3050/staff/customerUp
+Content-Type: application/json
+
+{
+      "cust_id": "8",
+      "firstname": "John",
+      "lastname": "Doe",
+      "email": "example5@gmail.com",
+      "address": "31 Pringle Street",
+      "province": "Saskatchewan",
+      "city": "Saskatoon",
+      "postCode": "S7T 9P2"
+}
+
+###
+
+POST http://localhost:3050/staff/registerStaff
+Content-Type: application/json
+
+{
+      "firstname":"Aaron",
+      "lastname":"Maddie",
+      "email": "maddieaa@gmail.com",
+      "address": "388 Macheda Street",
+      "province": "Saskatchewan",
+      "city": "Saskatoon",
+      "postCode": "S7T 6U7",
+      "dob": "2000-08-02"
+}
+
+
+### 
+
+PATCH http://localhost:3050/staff/accessLogin
+Content-Type: application/json
+
+{
+      "staff_id":102,
+      "username":"newOne",
+      "password": "samething"
+}

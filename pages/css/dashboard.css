@@ -1,0 +1,24 @@
+/* #main-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#dashboard-container {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  background: linear-gradient(to bottom right, #0f2027, #2c5364);
+  width: 20%;
+  height: 100%;
+  white-space: normal;
+}
+
+#dashboard-container ul li {
+  list-style-type: none;
+  margin-bottom: 2%;
+}
+
+#dashboard-container ul li {
+  white-space: inherit;
+} */
