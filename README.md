@@ -16,8 +16,12 @@ A staff can log in using either their username or staff id in the 'Username' fie
 #
 
 **Running project locally:**
+
+Backend server has to be successfully opened:
 - npm i
 - npm start
+
+Then, the frontend could be opened on the browser by opening the HTML project files with Live Server (on VsCode).
 #
 
 Deployed application on  https://node-cboproject.herokuapp.com
