@@ -22,6 +22,4 @@ Backend server has to be successfully opened:
 - npm start
 
 Then, the frontend could be opened on the browser by opening the HTML project files with Live Server (on VsCode).
-#
 
-Deployed application on  https://node-cboproject.herokuapp.com
